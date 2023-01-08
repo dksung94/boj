@@ -1,13 +1,7 @@
 # https://www.acmicpc.net/problem/1021
 
 
-def parse_stdin(raw=None):
-    if raw is not None:
-        import io
-        import sys
-
-        sys.stdin = io.StringIO(raw)
-
+def input_data():
     N, M = map(int, input().split())
     a = list(map(int, input().split()))
     return N, M, a
@@ -37,6 +31,6 @@ def solve(N, M, a):
 
 
 if __name__ == "__main__":
-    N, M, a = parse_stdin()
+    N, M, a = input_data()
     result = solve(N, M, a)
     print(result)
