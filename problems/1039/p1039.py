@@ -1,4 +1,4 @@
-# https://www.acmicpc.net/problem/1072
+# https://www.acmicpc.net/problem/1039
 import sys
 from collections import deque
 
